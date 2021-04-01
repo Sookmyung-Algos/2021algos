@@ -2,7 +2,7 @@
 11기 Algos 활동 내용 요약
 
 ### 2021 ALGOS 운영진 소개
-
+![algos](https://user-images.githubusercontent.com/61380136/113332979-db45ef80-935c-11eb-8c69-2f1fd760f3b9.png)
 
 # 알고스 스터디 커리큘럼 안내
 ### 2학년
