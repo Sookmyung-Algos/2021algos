@@ -11,7 +11,7 @@ queue<int>q;
 
 void bfs() {
 	for (int i = 1; i <= n; i++) {
-		if (ind[i] == 0)
+		if (ind[i] == 0)	//차례가 됨
 			q.push(i);
 	}
 
@@ -23,7 +23,7 @@ void bfs() {
 
 		for (int j = 0; j < v[next].size(); j++) {
 			int nx = v[next][j];
-			ind[nx]--;
+			ind[nx]--;	//앞의 숫자를 하나 뺐으므로 차수-1
 			if (ind[nx] == 0)	//in degree==0
 				q.push(nx);
 		}
