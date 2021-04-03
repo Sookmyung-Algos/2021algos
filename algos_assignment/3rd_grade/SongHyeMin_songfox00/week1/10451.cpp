@@ -14,7 +14,7 @@ void dfs(int node) {
 
 	if (!visit[next])
 		dfs(next);
-	else if (!finish[next])
+	else if (!finish[next])	//사이클이 형성되었다면
 		cnt++;
 
 	finish[node] = true;
@@ -41,7 +41,7 @@ int main() {
 		cout << cnt<<'\n';
 
 		cnt = 0;
-		memset(v, 0, 1001);
+		memset(v, 0, 1001);	//배열 비우기
 		memset(visit, false, 1001);
 		memset(finish, false, 1001);
 	}
