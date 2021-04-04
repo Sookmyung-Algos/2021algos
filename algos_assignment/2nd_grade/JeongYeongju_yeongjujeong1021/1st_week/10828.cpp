@@ -1,4 +1,4 @@
-// 과제가 4문제밖에 없어서 스택 예제 (백준 10838번 https://www.acmicpc.net/problem/10828) 풀었습니다.
+// 과제가 4문제밖에 없어서 스택 관련 예제 (백준 10838번 https://www.acmicpc.net/problem/10828) 풀었습니다.
 
 #include <iostream>
 #include <stack>
