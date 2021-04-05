@@ -21,6 +21,6 @@ int main(void) {
 		}
 		if (s.empty())	cnt++; //검사 후 스택이 비어있으므로 좋은 단어
 	}
-	printf("%d\n", cnt);
+	cout << cnt;
 	return 0;
 }
