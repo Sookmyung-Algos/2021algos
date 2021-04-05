@@ -22,7 +22,7 @@ int main() {
 	int i, n;
 	scanf("%d", &n);  
 	for (i = 0; i < n; i++) {
-		scanf("%d %s", &member[i].age, member[i].name); //scanf를 할 때 member[i].age에 &를 넣어주는 것을 잊지 말아야 한다
+		scanf("%d %s", &member[i].age, &member[i].name); //scanf를 할 때 member[i].age와 member[i].name에 &를 넣어주는 것을 잊지 말아야 한다
 		member[i].order = i;  //order는 입력된 순서이므로 i번째가 들어가면 된다
 	}
 	sort(member, member + n, cmp);  //cmp에 따라 sort를 해준다
