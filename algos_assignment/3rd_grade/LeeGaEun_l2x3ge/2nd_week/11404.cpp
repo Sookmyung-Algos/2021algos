@@ -26,8 +26,10 @@ int main() {
 		cin >> a >> b >> c;
 		v[a][b] = min(v[a][b], c);
 	}
+	
 	//플로이드
 	floydWarshall();
+	
 	//출력
 	for (int i = 1;i <= n;i++) {
 		for (int j = 1;j <= n;j++) {
