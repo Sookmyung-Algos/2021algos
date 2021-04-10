@@ -1,0 +1,39 @@
+#include<iostream>
+#include<algorithm>
+using namespace std;
+
+int n, cnt = 0;
+int v[101];
+bool visited[101] = { false, };
+bool finished[101] = { false, };
+int cycled[101];
+
+void dfs(int n);
+int main() {
+	cin >> n;
+	for (int i = 1; i <= n; i++) {
+		cin >> v[i];
+	}
+	for (int i = 1; i <= n; i++) {
+		if (!visited[i])
+			dfs(i);
+	}
+	sort(cycled, cycled + cnt);
+	cout << cnt << "\n";
+	for (int i = 0; i < cnt; i++)
+		cout << cycled[i] << "\n";
+	return 0;
+}
+void dfs(int n) {//n은 시작 노드
+	visited[n] = true;//방문표시
+	int next = v[n];
+	if (!visited[next])
+		dfs(next);
+	else if (!finished[next]) {
+		cycled[cnt++] = n;//사이클 발생
+		for (int i = v[n]; i != n; i = v[i]) {
+			cycled[cnt++] = i;
+		}
+	}
+	finished[n] = true;
+}
