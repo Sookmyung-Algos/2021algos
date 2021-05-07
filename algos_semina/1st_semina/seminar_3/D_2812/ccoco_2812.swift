@@ -1,7 +1,6 @@
 import Foundation
 
-var top = 0
-var c: Character
+var top: Int = 0
 var stack: [Character] = []
 
 let inputValues = readLine()!.split(separator: " ").map { Int($0)! }
