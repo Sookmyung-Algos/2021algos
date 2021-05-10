@@ -1,0 +1,5 @@
+![week1_1](https://user-images.githubusercontent.com/81628744/113829017-fa5eda00-97bf-11eb-8ea4-808130842d3a.jpg)
+![week1_2](https://user-images.githubusercontent.com/81628744/113829024-fc289d80-97bf-11eb-91c4-06f0490cbe1f.jpg)
+![week1_3](https://user-images.githubusercontent.com/81628744/113829025-fcc13400-97bf-11eb-8a35-b81dffc8337a.jpg)
+![week1_4](https://user-images.githubusercontent.com/81628744/113829029-fcc13400-97bf-11eb-9652-1f49231109df.jpg)
+![week1_5](https://user-images.githubusercontent.com/81628744/113829031-fd59ca80-97bf-11eb-85eb-9f329d544bb1.jpg)
