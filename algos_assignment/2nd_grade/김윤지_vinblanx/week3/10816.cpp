@@ -5,7 +5,12 @@
 using namespace std;
 
 int main() {
+	ios::sync_with_stdio(false);
+	cout.tie(NULL);
+	cin.tie(NULL);
+
 	vector <int> c;
+	vector <int> ans;
 	int n, m;
 
 	cin >> n;
@@ -20,6 +25,12 @@ int main() {
 	for (int i = 0; i < m; i++) {
 		int key;
 		cin >> key;
-		cout << upper_bound(c.begin(), c.end(), key) - lower_bound(c.begin(), c.end(), key) << " "; //key값 이상이 처음 나타나는 위치에서 key값보다 큰 값이 처음 나타나는 위치의 차가 key값이 적힌 카드의 개수이므로 그 차를 출력함
+		ans.push_back(key);
+		auto upper = upper_bound(c.begin(), c.end(), key); //key값 이상이 처음 나타나는 위치
+		auto lower = lower_bound(c.begin(), c.end(), key);//key값보다 큰 값이 처음 나타나는 위치
+
+		cout << upper - lower << " ";//upper와 lower의 차가 key값이 적힌 카드의 개수이므로 그 차를 ans 벡터에 저장
 	}
+
+	return 0;
 }
