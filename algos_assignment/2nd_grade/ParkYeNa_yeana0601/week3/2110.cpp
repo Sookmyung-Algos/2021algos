@@ -1,45 +1,51 @@
+//가장 인접한 공유기 간의 최대거리 탐색
+//코드참고 : https://m.blog.naver.com/PostView.naver?blogId=vjhh0712v&logNo=221683269377&proxyReferer=https:%2F%2Fwww.google.com%2F
 #include <iostream>
 #include <vector>
 #include <algorithm>
+
 using namespace std;
 
+int calc_count(int mid, vector<int>& v) {
+	int std = v[0];
+	int count = 1;
+
+	for (int i = 1; i < v.size(); i++) {
+		if (v[i] - std >= mid) {
+			count++;
+			std = v[i];
+		}
+	}
+	return count;
+}
+
 int main() {
-	cin.tie(0); cout.tie(0);
-	ios_base::sync_with_stdio;
 
-	int n, c;
-	vector <int>v;
-	cin >> n >> c;
+	int N, C;
+	cin >> N >> C;
 
-	for (int i = 0; i < n; i++) {
-		int t;
-		cin >> t;
-		v.push_back(t);
+	vector<int> v(N);
+	for (int i = 0; i < N; i++) {
+		cin >> v[i];
 	}
 
 	sort(v.begin(), v.end());
-	
-	int first = v.front();
-	int last = v.back();
-	int ans = -1;
 
-	while (first <= last) {
-		int mid = (first+last) / 2;
-		int past_idx = 0;
-		int num = 1;
+	int start = 1;
+	int end = v[N - 1]; //1부터 가장 큰 좌표값을 가진 집 위치부터 이진탐색
+	int result = 0;
 
-		for (int idx = 1; idx < n; idx++) {
-			if (v.at(idx) - v.at(past_idx) >= mid) {
-				past_idx = idx;
-				num++;
-			}
+	while (start <= end) {
+		int mid = (start + end) / 2;
+		int count = calc_count(mid, v);
+
+		if (count >= C) {
+			result = max(result, mid);
+			start = mid + 1;
 		}
-		
-		if (num >= c) first = mid + 1;
-		else last = mid - 1;
-
-		if (ans < mid && num >= c) ans = mid;
+		else end = mid - 1;
 	}
-	cout << ans;
+
+	cout << result << endl;
 	return 0;
 }
