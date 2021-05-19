@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+using namespace std;
+vector<int> v[300001];
+int ch[300001];
+int main(){
+	int n, s, e, num=0;
+	queue<int> q;
+	cin>>n;
+	for(int i=0; i<n-2; i++) {
+		cin>>s>>e;
+		v[s].push_back(e);
+		v[e].push_back(s);
+	}//양방향 
+	q.push(1);
+	ch[1]=1;//true or false
+	while (!q.empty()) {
+		int hi=q.front();
+		q.pop();
+		for (int i=0; i<v[hi].size(); i++){
+			int next=v[hi][i];
+			if(ch[next]==0) {
+				ch[next]=1;//방문체크 
+				q.push(next);
+			}
+		}
+	}
+	for(int i=1; i<=n; i++){
+		if (ch[i]==0) {//체크되지 않은게 이을 수 있는 다리 
+			num=i;
+			break; 
+		}
+	}
+	cout<<1<<" "<<num<<"\n";
+	return 0;
+}
