@@ -14,6 +14,7 @@ int main(void) {
 	ios_base::sync_with_stdio(0);
 
 	cin >> n >> m;
+	//시작은 0, 깔린 눈은 1부터
 	for (int i = 1;i < n+1;i++) {
 		cin >> v[i];
 	}
