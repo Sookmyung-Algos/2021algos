@@ -26,7 +26,7 @@ int main(){
         for (int j=0;j<N;j++)
         {
             if (map[i][j]=='1'){
-                map[i][j]='2';          //방문한 배열임을 표시
+                map[i][j]='2';          //방문한 노드임을 표시
                 cnt=1;                  //단지 내 집 수
                 dfs(i,j);
                 h.push_back(cnt);
