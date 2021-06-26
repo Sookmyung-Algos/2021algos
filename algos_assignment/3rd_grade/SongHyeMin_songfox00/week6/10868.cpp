@@ -13,7 +13,7 @@ long long init(int L, int R, int node) {
 	if (L == R)
 		return tree[node] = v[L];
 	int mid = (L + R) / 2;
-	return tree[node] = min(init(L, mid, node * 2), init(mid + 1, R, node * 2 + 1));
+	return tree[node] = min(init(L, mid, node * 2), init(mid + 1, R, node * 2 + 1));	//최솟값 반환
 }
 
 long long query(int left, int right, int node, int start, int end) {
@@ -22,7 +22,7 @@ long long query(int left, int right, int node, int start, int end) {
 	if (left <= start && right >= end)
 		return tree[node];
 	int mid = (start + end) / 2;
-	return min(query(left, right, node * 2, start, mid), query(left, right, node * 2 + 1, mid+1, end));
+	return min(query(left, right, node * 2, start, mid), query(left, right, node * 2 + 1, mid+1, end));	
 }
 
 int main() {
