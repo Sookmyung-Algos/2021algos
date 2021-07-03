@@ -50,8 +50,8 @@ int main(){
         dfs(v[0].first,v[0].second);
         
         if (result)             //행복하게 도착
-            cout<<"happy"<<endl;
+            cout<<"happy"<<'\n';
         else                    //슬프게 도착
-            cout<<"sad"<<endl;
+            cout<<"sad"<<'\n';
     }
 }
