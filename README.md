@@ -19,6 +19,10 @@
 ### 3학년
 <img width="1338" alt="스크린샷 2021-03-28 오후 8 14 15" src="https://user-images.githubusercontent.com/61380136/112794246-8a56a280-90a1-11eb-99b4-0b5b2b783e15.png">
 
+### 여름 캠프
+![image](https://user-images.githubusercontent.com/61380136/125170769-88959280-e1eb-11eb-8f21-0a8612de6c35.png)
+여름 캠프 발표자: 김가영(브루트포스/백트랙킹 & dp), 김도은(bfs/dfs), 송혜민(tree), 윤예슬(KMP & 세그먼트 트리), 이가은(유니온 파인드)
+
 # 요약
 ### 1. algos_assignment
 
