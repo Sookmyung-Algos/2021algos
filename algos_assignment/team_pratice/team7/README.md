@@ -1,8 +1,9 @@
 # TEAM_PRACTICE: team7
 ## Members
 - 남수연(컴퓨터과학전공 19)
-- 서소원
+- 서소원(컴퓨터과학전공 19)
 - 장아현(컴퓨터과학전공 20)
+
 
 ## Solved Problems
 ### week 1
