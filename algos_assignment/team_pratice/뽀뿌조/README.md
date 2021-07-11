@@ -7,3 +7,6 @@
 - 9329 패스트 푸드 상금 (Silver 4)
 - 14501 퇴사 (Silver 4)
 - 14502 연구소 (Gold 5) 
+
+#9329 패스트 푸드 상금 정리 캡쳐본 - 입력에서 막힘. 해결 안됨...
+![9329](https://user-images.githubusercontent.com/54930076/125198775-3e211e00-e29e-11eb-8630-2f1e4f1597b8.jpg)
