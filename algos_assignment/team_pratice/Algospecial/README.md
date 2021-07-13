@@ -2,6 +2,7 @@
 팀원: 김도은, 윤예슬, 채정아
 
 ## Week1
+
 1. [1351/무한수열](https://www.acmicpc.net/problem/1351) - G4
 2. [1354/무한수열2](https://www.acmicpc.net/problem/1354) - G4
 3. [1933/스카이라인](https://www.acmicpc.net/problem/1933) - G2
@@ -9,5 +10,7 @@
 5. [2983/개구리 공주](https://www.acmicpc.net/problem/2983) - P4
 
 ## Week2
-1. [SCPC 예선/사다리타기](https://www.codeground.org/practice/practiceProblemViewNew) - 150점
+- 7월 13일(화) 20:00 ~ 01:40
+1. [SCPC 예선/사다리타기] - 150점
 2. [2098/외판원 순회](https://www.acmicpc.net/problem/2098) - G1
+3. [2275/트리의 높이 줄이기](https://www.acmicpc.net/problem/2275) - G1
