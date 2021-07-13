@@ -8,4 +8,6 @@
 4. [2957/이진탐색트리](https://www.acmicpc.net/problem/2957) - P5
 5. [2983/개구리 공주](https://www.acmicpc.net/problem/2983) - P4
 
-
+## Week2
+1. [SCPC 예선/사다리타기](https://www.codeground.org/practice/practiceProblemViewNew) - 150점
+2. [2098/외판원 순회](https://www.acmicpc.net/problem/2098) - G1
