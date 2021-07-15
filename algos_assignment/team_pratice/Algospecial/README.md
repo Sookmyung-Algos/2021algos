@@ -17,3 +17,4 @@
 3. [2275/트리의 높이 줄이기](https://www.acmicpc.net/problem/2275) - G1
 4. [2020 SCPC 예선 2차/고구마] - 150점
 5. [2020 SCPC 예선 2차/실력 맞추기] - 100점
+6. [1285/동전 뒤집기](https://www.acmicpc.net/problem/1285) - G1
