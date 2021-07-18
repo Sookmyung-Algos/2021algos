@@ -14,7 +14,7 @@
 - [4779 칸토어 집합](https://www.acmicpc.net/problem/4779) (Silver 3)
 - [10026 적록 색약](https://www.acmicpc.net/problem/10026) (Gold 5)
 - [14500 테트로미노](https://www.acmicpc.net/problem/14500) (Gold 5)
-
+- [2193 이친수](https://www.acmicpc.net/problem/2193) (Silver 3): Week 1에서 제출하지 못한 < [9329] 패스트 푸드 상금> 대체 문제
 
 
 
