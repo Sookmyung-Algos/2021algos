@@ -18,10 +18,10 @@ long long go(int x, int y, int sec) { //시작점으로부터의 이동거리 x,
 	if (abs(hx - cx) + abs(hy - cy) > t - sec) return 0; // 이동 시간이 t보다 오래 걸리면 return 0
 
 	long long &ans = dp[x + 200][y + 200][sec]; //ans : dp[x+200][y+200][sec]의 값을 저장한 주소
-	if (ans != -1) return ans;
+	if (ans != -1) return ans; //이미 구한 값이면 return
 	ans = 0;
 	for (int i = 0; i < 4; i++) {
-		int nx = x + dx[i], ny = y + dy[i];
+		int nx = x + dx[i], ny = y + dy[i]; //이동할 좌표 (nx,ny)
 		cx = sx + nx, cy = sy + ny;
 		if (!chk[{cx, cy}]) //장애물이 아니라면
 			ans = (ans + go(nx, ny, sec + 1) % MOD) % MOD;
@@ -34,7 +34,7 @@ int main() {
 	cin.tie(0);
 	memset(dp, -1, sizeof(dp));
 	cin >> sx >> sy >> t >> hx >> hy >> n;
-	sx += 100000;
+	sx += 100000; //좌표 범위가 -10만~10만이라 0~20만으로 조정
 	sy += 100000;
 	hx += 100000;
 	hy += 100000;
