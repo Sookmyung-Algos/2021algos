@@ -14,3 +14,10 @@
 3. [1342/행운의 문자열](https://www.acmicpc.net/problem/1342) - 골드5
 4. [1744/수 묶기](https://www.acmicpc.net/problem/1744) - 골드4
 5. [17298/오큰수](https://www.acmicpc.net/problem/17298) - 골드4
+
+## Week3
+1. [10825/국영수](https://www.acmicpc.net/problem/10825) - 실버4
+2. [10610/30](https://www.acmicpc.net/problem/10610) - 실버5
+3. [2437/저울](https://www.acmicpc.net/problem/2437) - 골드3
+4. [2504/괄호의 값](https://www.acmicpc.net/problem/2504) - 실버2
+5. [3078/좋은친구](https://www.acmicpc.net/problem/3078) - 골드3
