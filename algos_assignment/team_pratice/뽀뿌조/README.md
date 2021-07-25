@@ -17,6 +17,13 @@
 - [2193 이친수](https://www.acmicpc.net/problem/2193) (Silver 3): Week 1에서 제출하지 못한 < [9329] 패스트 푸드 상금> 대체 문제
 
 
+## Week 3
+- [1654 랜선 자르기](https://www.acmicpc.net/problem/1654) (Silver 3)
+- [3190 뱀](https://www.acmicpc.net/problem/3190) (Gold 5)
+- [7562 나이트의 이동](https://www.acmicpc.net/problem/7562) (Silver 2)
+- [11057 오르막수](https://www.acmicpc.net/problem/11057) (Silver 1)
+- [12865 평범한 배낭](https://www.acmicpc.net/problem/12865) (Gold 5)
+
 
 
 ------------------------------------------
