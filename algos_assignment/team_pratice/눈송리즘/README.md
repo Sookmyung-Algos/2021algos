@@ -28,6 +28,7 @@
 4. [2352] 반도체 설계 (Gold 2)   
 5. [14003] 가장 긴 부분 수열5 (Platinum 5)   
    
+   
 ## SUAPC
 ### week1    
 1. [11582] 치킨 TOP N (Silver 4)   
