@@ -30,7 +30,7 @@
     
      
 ## SUAPC
-### week1    
+### week4    
 1. [11582] 치킨 TOP N (Silver 4)   
 2. [2512] 예산 (Silver 3)   
 3. [17829] 222-풀링 (Silver 2)   
