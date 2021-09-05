@@ -1,0 +1,46 @@
+#include <cstdio>
+#include <vector>
+#include <queue>
+using namespace std;
+
+int main(){
+    int k, v, e;
+    scanf("%d", &k);
+    while(k>0){
+        vector<int> graph[20001];
+        int check[20001] = {0, };
+        bool ans=true;
+        scanf("%d %d", &v, &e);
+        for(int i=0;i<e;i++){
+            int a, b;
+            scanf("%d %d", &a, &b);
+            graph[a].push_back(b);
+            graph[b].push_back(a);
+        }
+        for(int i=1;i<=v&&ans;i++){
+            if(check[i]!=0)
+                continue;
+            queue<int> q;
+            check[i]=-1;
+            q.push(i);
+            while(!q.empty()&&ans){
+                int nowv=q.front(); q.pop();
+                for(int nextv:graph[nowv]){
+                    if(check[nextv]==check[nowv]){
+                        ans=false;
+                        break;
+                    }
+                    else if(check[nextv]==0){
+                        check[nextv]=1-check[nowv];
+                        q.push(nextv);
+                    }
+                }
+            }
+        }
+        if(ans)
+            printf("YES\n");
+        else
+            printf("NO\n");
+        k--;
+    }
+}
