@@ -5,7 +5,7 @@
 - 이가은
 
 ## Team Study
-### week1
+### 9월 2주차
 1. [20046] Road Reconstruction(G4)
 2. [2468] 안전영역(S1)
 3. [9372] 상근이의 영역(S4)
