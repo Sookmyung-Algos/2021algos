@@ -23,6 +23,10 @@
 ![image](https://user-images.githubusercontent.com/61380136/125170769-88959280-e1eb-11eb-8f21-0a8612de6c35.png)
 여름 캠프 발표자: 김가영(브루트포스/백트랙킹 & dp), 김도은(bfs/dfs), 송혜민(tree), 윤예슬(KMP & 세그먼트 트리), 이가은(유니온 파인드)
 
+### 2학기
+![image](https://user-images.githubusercontent.com/61380136/136987056-000e6607-49f7-45eb-9295-a2c9ee0bfd2d.png)
+
+
 # 요약
 ### 1. algos_assignment
 
