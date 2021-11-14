@@ -23,7 +23,7 @@ void input(){
 void dijkstra(int s){
     priority_queue<pair<int, int>> pq;
     dist[s] = 0;
-    pq.push(make_pair(0, Start));
+    pq.push(make_pair(0, s));
 
     while (pq.empty() == 0){
         int cost = -pq.top().first;
