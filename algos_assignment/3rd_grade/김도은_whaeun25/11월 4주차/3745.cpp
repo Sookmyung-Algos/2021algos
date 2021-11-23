@@ -1,27 +1,28 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
 using namespace std;
 
-int N;
-vector<int> cache;
+int n;
+vector<int> v;
 
 int main() {
-
-    while (cin >> N) {
-	    cache.clear();
-	    for (int i = 1; i <= N; ++i) {
+    while(cin >> n){
+        v.clear();
+        
+        for(int i = 1; i <= n; i++){
+            int cost;
+            cin >> cost;
             
-		    int cost;
-            
-		    cin >> cost;
-            
-		    if (cache.empty() || cache.back() < cost){
-                cache.push_back(cost);
-            } 
-		    else {
-			    int idx = lower_bound(cache.begin(), cache.end(), cost) - cache.begin();
-			    cache[idx] = cost;
-		    }
-	    }
-	    cout << cache.size() << '\n';
+            if(v.empty() || v.back() < cost){
+                v.push_back(cost);
+            }
+            else{
+                int index = lower_bound(v.begin(), v.end(), cost) - v.begin();
+                v[index] = cost;
+            }
+        }
+        cout << v.size() << "\n";
     }
 }
